@@ -1,0 +1,74 @@
+body{
+    background-color:  #FFEA6C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-arena{
+    height: 450px;
+    width: 450px;
+    background-color: #FFFBA7;
+    border: 2px solid white;
+    box-shadow: 0 0 20px rgba(225, 0, 255, 0.959);
+    position: relative;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.grp-1{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    position: absolute;
+    left: 154px;
+    top: 1px;
+}
+.vline{
+    height: 445px;
+    width: 6px;
+    border-radius: 3px;
+    background-color: #FF61F8;
+
+}
+.grp-2{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 150px;
+}
+
+.hline{
+   height: 6px;
+    width: 445px;
+    border-radius: 3px;
+    background-color: #FF61F8;
+}
+
+.button{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.player{
+    padding: 10px;
+    background-color: #FF61F8;
+    border-radius: 3px ;
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}

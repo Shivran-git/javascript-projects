@@ -1,0 +1,79 @@
+body{
+    background-color: gainsboro;
+    margin: 0;
+    padding: 0;
+}
+#container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+    
+}
+
+#game-arena{
+    height: 440px;
+    width: 700px;
+    background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+.stick{
+    height: 90px;
+    width: 20px;;
+    background-color: white;
+    position: absolute;
+    
+}
+
+.ball{
+    height: 15px ;
+    width: 15px;
+    background-color: white;
+    position: absolute;
+}
+
+#scorecard{
+        position: absolute;
+        top: 30px;
+        left: 250px;
+            display: flex;
+            width: 200px;
+            height: 100px;
+            justify-content: space-between;
+            align-items: top;
+
+
+}
+.score{
+    height: 50px;
+    width: 50px;
+    color: grey;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#net{
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.squares{
+    height: 18px;
+    width: 18px;
+    margin: 2px;
+    background-color: white;
+    
+}
+
+

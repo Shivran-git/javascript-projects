@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#arena{
+   
+    width: 1000px;
+    height: auto;
+    background-color: #8100D1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.list{
+    height: 100px;
+    width: 1000px;
+    display: flex;
+
+    
+    background-color: white;
+    border: 1px solid black;
+}
+
+h1{
+       color: #FFA47F;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#upload{
+    background-color: #40413a;
+    height: 300px;
+    width: 1000px;
+    margin: 20px;
+}
+
+.span{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#uploadBtn{
+    color: white;
+    padding: 5px;
+    border: 2px solid red;
+    margin: 15px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#uploadBtn:hover{
+    background-color: white;
+    color: black;
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+        
+}
+
+#addDiv{
+     color: white;
+    padding: 5px;
+    border: 2px solid red;
+    margin: 15px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#addDiv:hover{
+    background-color: white;
+    color: black;
+}
+
+.funcs{
+    display: flex;
+}
